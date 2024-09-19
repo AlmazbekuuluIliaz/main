@@ -1,0 +1,97 @@
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.loadBox {
+  width: fit-content;
+}
+
+.toolbar-button {
+  width: 40px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #fff;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.active {
+  background-color: #dedede;
+}
+
+.toolbar-button img {
+  width: 20px;
+}
+
+.canvas-mainInfoBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.canvas-box {
+  width: fit-content;
+  max-width: 70%;
+  max-height: 600px;
+  margin-top: 20px;
+  overflow: auto;
+  background-color: #606872;
+}
+
+.canvas-hand {
+  cursor: grab;
+}
+
+.canvas-hand_grabbing {
+  cursor: grabbing;
+}
+
+.canvas-pipette {
+  cursor: url('./image/pipette.png'), auto;
+}
+
+.info-panel {
+  margin-bottom: 20px;
+  width: max-content;
+}
+
+.color-panel {
+
+font-size: 12px;
+}
+
+.color-panelInfo {
+  /* display: flex; */
+}
+
+.color-info {
+  display: flex;
+  align-items: center;
+}
+
+.dialog {
+  padding-left: 60px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #000000cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-content {
+  background-color: #fff;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 5px;
+}
